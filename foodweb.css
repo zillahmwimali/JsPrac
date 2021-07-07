@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montez&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    font-family: sans-serif;
+}
+.form{
+    width: 500px;
+    background: rgba(10,54,17);
+    margin: 12% auto;
+    padding: 50px 0;
+    font-family: monospace;
+    box-shadow: 0 0 20px 2px; 
+}
+h1{
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Montez', cursive;
+    color: #777777;
+}
+.input-box{
+    margin: 31px auto;
+    width: 80%;
+    border-bottom: 1px solid rgb(243, 230, 53);
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.input-box input{
+    width: 90%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff;
+}
+::placeholder{
+    color: #ccc;
+}
+.fa{
+    margin-right: 10px;
+}
+.eye{
+    position: absolute;
+}
+#hide1{
+    display: none;
+}
+.btnLog{
+    margin: 40px auto 20px;
+    width: 80%;
+    display: block;
+    outline: none;
+    padding: 10px 0;
+    border: 1px  solid rgb(243, 230, 53);
+    cursor: pointer;
+    background: transparent;
+    color: #fff; 
+    font-size: 16px;
+}
+.container{
+    background: #fff;
+}
+.form-control{
+    margin: 31px auto;
+    width: 80%;
+    border-bottom: 1px solid rgb(243, 230, 53);
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.form-control input{
+    width: 90%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff;
+}
+.btnCreate{
+    margin: 40px auto 20px;
+    width: 80%;
+    display: block;
+    outline: none;
+    padding: 10px 0;
+    border: 1px  solid rgb(243, 230, 53);
+    cursor: pointer;
+    background: transparent;
+    color: #fff; 
+    font-size: 16px;
+    font-weight: bold;
+}
+#uError{
+    visibility: hidden;
+    color: red;
+}
+#eError{
+    visibility: hidden;
+    color: red;
+}
+#pError{
+    visibility: hidden;
+    color: red;
+}
+#passError{
+    visibility: hidden;
+    color: red;
+}
